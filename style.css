@@ -1,0 +1,182 @@
+/* FONT DEL TITULO 
+
+    font-family: 'Ubuntu', sans-serif;
+
+FONT DEL TITULO */
+
+/* FONT DE CADA BOTON
+
+    font-family: 'Courgette', cursive;
+
+FONT DE CADA BOTON */
+
+/* FONT DE CADA PRECIO Y PRODUCTO
+
+    font-family: 'Borel', cursive;
+
+FONT DE CADA PRECIO Y PRODUCTO */
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.titular{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #f8f398;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagenTitular{
+    height: 150px;
+    width: auto;
+}
+
+.categoriasTitulo, .paymentMethod{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.categoriesListOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.fruitsLink, .vegetablesLink, .meatLink{
+    text-decoration: none;
+    color: black;
+}
+
+.fruitsText, .vegetablesText, .meatText{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.fruitsPng, .vegetablesPng, .meatPng{
+    height: 150px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.fruits, .vegetables, .meat{
+    border: 10px dashed #ececec;
+    border-radius: 20px;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fruits:hover{
+    border: 10px dashed #171717;
+}
+
+.vegetables:hover{
+    border: 10px dashed #171717;
+}
+
+.meat:hover{
+    border: 10px dashed #171717;
+}
+
+.payments{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cashPng{
+    width: 180px;
+    height: auto;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cardPng{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cashPng:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.cardPng:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.backToMenuPng{
+    height: 100px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.backToMenuPng:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.productsOne, .productsTwo, .productsThree{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.productsOne{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.productsTwo, .productsThree{
+    padding-bottom: 80px;
+}
+
+.fruitsProductText{
+    font-family: 'Borel', cursive;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.fruitsTwoPng{
+    width: 150px;
+    height: auto;
+}
+
+.fruitsBorder{
+    border: 10px dashed #ececec;
+    border-radius: 20px;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fruitsBorder:hover{
+    border: 10px dashed #171717;
+}
+
+
+
+
