@@ -202,3 +202,88 @@ FONT DE CADA PRECIO Y PRODUCTO */
     text-align: center;
 }
 
+.titularBlack{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dbd8e3;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+}
+
+.airplaneTargets{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.airplaneText{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    padding-top: 30px;
+}
+.targetBorder{
+    border: 10px dashed #ececec;
+    border-radius: 20px;
+    padding: 30px 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.targetBorder:hover{
+    border: 10px dashed #171717;
+}
+
+.airportLinks{
+    text-decoration: none;
+    color: black;
+}
+
+.flightPng{
+    height: 80px;
+    width: auto;
+}
+
+.flightsTargets{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px dashed #ececec;
+    border-radius: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.flightsTargets:hover{
+    border: 10px dashed #cbf078;
+}
+
+.flightsPadding{
+    padding: 40px 50px;
+    
+}
+.hourOfTheFlight, .destinyOfTheFlight, .durationOfTheFlight{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.speakingeExcercise{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.pilotImagen{
+    height: 200px;
+    width: auto;
+}
