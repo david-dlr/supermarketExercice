@@ -73,9 +73,9 @@ FONT DE CADA PRECIO Y PRODUCTO */
     color: black;
 }
 
-.fruitsText, .vegetablesText, .meatText{
+.fruitsText, .vegetablesText, .meatText, .fruitsProductTextHover{
     text-align: center;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Borel', cursive;
     font-size: 20px;
     padding-top: 20px;
 }
@@ -191,7 +191,6 @@ FONT DE CADA PRECIO Y PRODUCTO */
 
 .fruitsProductTextHover{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 20px;
     padding-top: 5px;
@@ -286,4 +285,19 @@ FONT DE CADA PRECIO Y PRODUCTO */
 .pilotImagen{
     height: 200px;
     width: auto;
+}
+
+.cinemaMoviesBorder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.movieImagePng{
+    width: 200px;
+    height: auto;
+    background-color: black;
+    padding: 10px 10px;
+    cursor: pointer;
 }
